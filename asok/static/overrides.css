@@ -1,0 +1,3 @@
+.img-mirrored{
+  transform: rotateY(180deg);
+}
