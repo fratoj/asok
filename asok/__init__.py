@@ -12,7 +12,7 @@ def root_factory(request):
 def main(global_config, **settings):
     """
     This function returns a Pyramid WSGI application.
-    This is a change to make a test commit 001
+    This is a change to make a test commit 002
     """
     with Configurator(settings=settings) as config:
         config.include('pyramid_jinja2')
